@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 600px;
+    width: 100%;
+    background-image: url(background-image.png);
+    background-size: cover;
+    background-position: top;
+}
+.navbar{
+   
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;   
+}
+.nav-logo-img{
+    height: 50px;
+    width: 90px;
+    background-size: cover;
+}
+.nav-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1120px;
+    gap: 25px;
+}
+.nav-title a{
+    color: gray;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.nav-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 70px;
+    width: 120px;
+}
+.nav-search-icon{
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+}
+.nav-search-button{
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(216, 96, 144);
+    border: none;
+    color: white;
+}
+.main-container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    
+
+}
+.left-container{
+    
+  height: 100%;
+    width: 40%;
+
+}
+.right-container{
+    
+    position: relative;
+    height: 100%;
+    width: 60%;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 3.5rem;
+}
+ .left-p{  
+    color: gray;
+    margin: 0;
+    margin-left: 100px;
+    font-size: 1.5rem;
+}
+.buttons{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+    gap: 15px;
+}
+.apply-button{
+    height: 32px;
+    width: 150px;
+    background-color:rgb(216, 96, 144);
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-size: 1rem;
+}
+.apply-button:hover{
+    background-color: white;
+    color: rgb(216, 96, 144);
+    cursor: pointer;
+    border: 2px solid rgb(216, 96, 144);
+}
+.calci-button{
+    height: 32px;
+    width: 180px;
+    background-color: transparent;
+    color: rgb(216, 96, 144);
+    border: 2px solid rgb(216, 96, 144);
+    border-radius: 4px;
+    font-size: 1rem;
+}
+.calci-button:hover{
+    background-color: rgb(216, 96, 144) ;
+    color: white;
+    cursor: pointer;
+}
+.right-img{
+    margin-left: 45px;
+    height: 600px;
+    width: 95%;
+    background-image: url(hero-image.png);
+    background-size: cover;
+    background-position: center;
+}
+.left-social-media{
+    height: 50px;
+    margin-top: 150px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.left-social-media img{
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    background-position: center;
+}
+.left-social-media p{
+    color: gray;
+    margin: 0;
+    
+    font-size: 1.8rem
+}
+.car-button{
+    margin-left: 45px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    height: 50px;
+    width: 140px;
+    background-color: white;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0px 0px 0px black, 0 0 20px black, 0 0 0px black;
+}
+
+.car-img{
+    background-size: cover;
+    background-position: center;
+    height: 20px;
+    width: 30px; 
+}
+.car-dis{
+    font-size: 1rem;
+}
+.home-button{
+    margin-left: 650px;
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 160px;
+    background-color: white;
+    border-radius: 50px;
+    gap: 20px;
+    border: none;
+    box-shadow: 0px 0px 0px black, 0 0 20px black, 0 0 0px black;
+}
+
+.home-img{
+    background-size: cover;
+    background-position: center;
+    height: 25px;
+    width: 30px; 
+}
+.home-dis{
+    font-size: 1rem;
+}
+
